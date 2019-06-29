@@ -1,0 +1,24 @@
+.header{
+  background-color: #36393B;
+}
+
+.header-content{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content h1{
+  color: #AFD0D6;
+  text-decoration: none
+}
+
+.header-content a:hover{
+  text-decoration: none;
+}
+
+.header-left{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

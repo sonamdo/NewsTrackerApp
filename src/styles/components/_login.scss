@@ -1,0 +1,25 @@
+.loginPage {
+  background: url('/images/background.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.loginBox {
+  background-color: black;
+  color: white;
+  padding: $l-size $m-size;
+  border-radius: 4px;;
+  align-items: center;
+  display: flex;
+}
+
+.loginPageButton {
+  border: none;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}

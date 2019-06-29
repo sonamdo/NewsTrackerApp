@@ -1,0 +1,17 @@
+.content-container{
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: $m-size;
+}
+
+.topicList{
+  border: 1px solid black;
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.topic{
+  border-bottom: 1px solid grey;
+  padding: 4px;
+}

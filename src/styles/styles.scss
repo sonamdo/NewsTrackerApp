@@ -1,0 +1,11 @@
+@import './base/settings';
+@import './base/base';
+@import './components/login';
+@import './components/main';
+@import './components/content-container';
+@import './components/header';
+@import './components/newsArticle';
+@import './components/followedTopics';
+@import './components/searchResultsArticle';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
