@@ -8,6 +8,7 @@ This app is still in development and there are a number of features I will be ad
 2. Desktop notifications
 3. A save feature letting users save articles for later reading
 4. Updated CSS
+5. Updated domain name and change dyno type for faster loading
 
 
 Built with React, Firebase, and deployed to Heroku with Node.js : https://news-tracker-app.herokuapp.com/
