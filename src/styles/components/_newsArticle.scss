@@ -2,8 +2,12 @@
   max-width: 100%;
 }
 
-.newsArticle:hover{
+.newsArticle a:hover{
   text-decoration: none
+}
+
+.newsArticle a:hover .articleTitle{
+  text-decoration: underline;
 }
 
 .articleTitle{

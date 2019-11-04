@@ -15,7 +15,7 @@ render(){
     <div>
     <Header />
       <div className = "content-container">
-      <h1 className = "bannerText">Headlines based on your interests</h1>
+      <h1 className = "bannerText">Headlines on followed topics</h1>
         <div className = "row">
           <div className = "col-sm-9">
             <NewsHighlights />

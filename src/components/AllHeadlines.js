@@ -5,21 +5,29 @@ import NewsArticle from './NewsArticle';
 const AllHeadlines = (props) => (
   <div>
     <div className = "row">
-      {(props.newsLoaded) ? // if news api was correctly loaded, render to screen
+      {(props.followedNews) ? // if news api was correctly loaded, render to screen
         props.news.map((article) => {
-          for(let i = 0; i<props.followedNews.length; i++){
-            if(article.title.toLowerCase().includes(props.followedNews[i].toLowerCase())){
-              return
-            }
-            else {
-              return <div className ="col-sm-4">
-                      <NewsArticle key={article.url} {...article}/>
-                     </div>
-                 }
-          }
+              var titleWords = article.title.split(" ")
+              var count = 0
+
+              for (var i = 0; i < titleWords.length; i++){
+                for(var e = 0; e < props.followedNews.length; e++){
+                  if(titleWords[i].toLowerCase() == props.followedNews[e].toLowerCase()){
+                    count += 1
+                  }
+                }
+              }
+              if (count<1){
+                return <div className ="col-sm-4">
+                        <p>{article.title}</p>
+                        <p>{titleWords[0]}</p>
+                        <NewsArticle key={article.url} {...article}/>
+                       </div>
+                   }
         })
-        : null // else render nothing
+          : null
       }
+
     </div>
   </div>
 )

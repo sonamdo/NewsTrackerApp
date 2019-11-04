@@ -10,8 +10,9 @@ export const startCreateUser = () => { //returns a function instead of an object
         history.push('/');
       } else {
         database.ref(`users/${uid}`).set({
-          following: ['Canada','Netherlands', 'React', 'Javascript', 'Firebase'],
-          saved: []
+          following: [],
+          saved: [],
+          createdOn: new Date().toString()
         })
       }
     })
