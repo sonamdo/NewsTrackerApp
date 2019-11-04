@@ -17,9 +17,11 @@ const NewsHighlights = (props) => (
           : null // else render nothing
         }
       </div>
-        <h2>No Headlines Found Based On Interests</h2>
         {props.followedNews.length < 1 ?
-          <div><p>It looks like you aren't following any topics at the moment. Consider adding some and we'll show you headlines based on what you're following</p></div>
+          <div>
+            <h2>No Headlines Found Based On Interests</h2>
+            <p>It looks like you aren't following any topics at the moment. Consider adding some and we'll show you headlines based on what you're following</p>
+          </div>
         : null}
     </div>
   </div>
