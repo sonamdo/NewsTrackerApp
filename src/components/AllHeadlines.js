@@ -19,8 +19,6 @@ const AllHeadlines = (props) => (
               }
               if (count<1){
                 return <div className ="col-sm-4">
-                        <p>{article.title}</p>
-                        <p>{titleWords[0]}</p>
                         <NewsArticle key={article.url} {...article}/>
                        </div>
                    }
