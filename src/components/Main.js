@@ -6,6 +6,7 @@ import AddTopic from './AddTopic';
 import FollowedTopics from './FollowedTopics'
 import Header from './Header';
 import AllHeadlines from './AllHeadlines';
+import Footer from './Footer';
 import NewUser from './NewUser'
 
 class Main extends React.Component {
@@ -28,6 +29,7 @@ render(){
       <h1 className = "bannerText">Also In The News</h1>
           <AllHeadlines />
     </div>
+    <Footer />
     </div>
   )
 }
