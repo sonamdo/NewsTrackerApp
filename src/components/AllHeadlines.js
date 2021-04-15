@@ -18,7 +18,7 @@ const AllHeadlines = (props) => (
                 }
               }
               if (count<1){
-                return <div className ="col-sm-4">
+                return <div className ="col-sm-4" key = {article.url + "div"}>
                         <NewsArticle key={article.url} {...article}/>
                        </div>
                    }
