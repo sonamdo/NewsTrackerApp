@@ -11,6 +11,6 @@ This app is still in development and there are a number of features I will be ad
 5. Updated domain name and change dyno type for faster loading
 
 
-Built with React, Firebase, and deployed to Heroku with Node.js : https://news-tracker-app.herokuapp.com/
+Built with React, Firebase, and deployed to Heroku with Node.js : https://news-tracker-app.herokuapp.com/ [App Currently Disabled]
 
 News API which provides data from news websites: https://newsapi.org/
